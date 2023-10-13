@@ -13,7 +13,7 @@ for phone_number, details in data.items():
         e_address_parts = details['Address'].get('e_address', '').split(';')
         alt_number = details['Address'].get('alt_number', '')
         email = details['Address'].get('email', '')
-        
+
         # Get individual parts of e_address
         Name = e_address_parts[0].strip() if e_address_parts else ''
         House = e_address_parts[1].strip() if len(e_address_parts) > 1 else ''

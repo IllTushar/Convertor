@@ -8,4 +8,4 @@ import pandas as pd
 df = pd.read_excel(r'C:\Users\Dhruv\Desktop\CsvFile\New_PinCodes.xlsx')  # Replace with the actual Excel file name
 
 # Save as CSV
-df.to_csv(r'C:\Users\Dhruv\Desktop\NewCSV\New_Pincodes.csv', index=False) 
+df.to_csv(r'C:\Users\Dhruv\Desktop\NewCSV\New_Pincodes.csv', index=False)
